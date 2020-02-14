@@ -12,7 +12,14 @@ end
 
 
 def reduce (array, start = nil)
-  find { |e|  }
-
-
+  if start
+    sum = start
+    i = 0
+  else
+    sum = array[0]
+    i = 1
+  end
+  while i < array.length
+    sum = yield(sum, array[i])
+    i +=1
 end
