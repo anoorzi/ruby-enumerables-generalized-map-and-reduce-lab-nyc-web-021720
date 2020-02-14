@@ -12,6 +12,7 @@ end
 
 
 def reduce (array, start = nil)
+  find { |e|  }
 
 
 end
