@@ -15,4 +15,3 @@ def reduce (array, start = 0)
 
 
 end
-
